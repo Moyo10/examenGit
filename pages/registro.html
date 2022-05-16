@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Water+Brush&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/ccs/style.css" />
+    <title>registro</title>
+  </head>
+  <body>
+    <nav class="meNu">
+      <ul>
+        <li><a href="../index.html">nosotros</a></li>
+        <li><a href="aventura.html">aventura</a></li>
+        <li><a href="guia.html">guia</a></li>
+        <li><a href="historia.html">historia</a></li>
+        <li><a href="registro.html">registro</a></li>
+      </ul>
+    </nav>
+    <form class="formulario">
+      <fieldset class="contenedor-formulario">
+        <legend>envia tus datos</legend>
+
+        <label for="nombre"> completa tu nombre </label>
+        <input type="text" name="nombre" placeholder="ingresa tu nombre" />
+        <label for="mail">completa tu email </label>
+        <input type="email" name="mail" placeholder="completa tu mail" />
+
+        <label for="pais"> seleccione pais </label>
+        <select name="pais" id="">
+          <option value="argentina">argentina</option>
+          <option value="colombia">colombia</option>
+          <option value="uruguay">uruguay</option>
+        </select>
+
+        <div>
+          <input type="submit" value="enviar" />
+          <input type="reset" value="resetear" />
+        </div>
+      </fieldset>
+    </form>
+
+    <footer>
+      <h4 class="fooTer">pagina diseñada por Miguel Boock</h4>
+    </footer>
+  </body>
+</html>

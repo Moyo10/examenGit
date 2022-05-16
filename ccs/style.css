@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+}
+
+.h1Color {
+  text-transform: capitalize;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Water Brush", cursive;
+  font-size: 50px;
+}
+
+.h2Color {
+  color: brown;
+}
+
+.h3Color {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Water Brush", cursive;
+  font-size: 50px;
+  display: flex;
+}
+
+.h4Color {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Water Brush", cursive;
+  font-size: 50px;
+}
+
+.reFu {
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Water Brush", cursive;
+}
+
+.colorRed {
+  color: red;
+}
+.madRe {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  justify-self: start;
+  align-self: start;
+}
+
+.fooTer {
+  background-color: bisque;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.meNu {
+  background-color: #d16914;
+  padding: 5px;
+  color: aliceblue;
+}
+.meNu ul li:hover{
+  background-color: red;
+}
+  
+
+.meNu ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 2px;
+  list-style-type: none;
+  padding: 12px;
+ text-align: center;
+ font-weight: bold;
+}
+
+.meNu ul li a {
+  text-decoration: none;
+  color: rgb(221, 212, 212);
+}
+.subTitulo {
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container{
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+ 
+@media  (max-width: 480px) {
+  
+  .container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-widh:480px){
+  .container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 600px){
+  .container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+.contenido-derecha {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px;
+}
+.contenido-derecha > p {
+  font-size: 20px;
+  text-shadow: 1px 1px 5px rgb(232, 47, 47);
+}
+.contenido-derecha > h3 {
+  font-size: 35px;
+}
+.contenido-derecha > ul {
+  padding: 3rem;
+}
+.contenido-derecha > ul li {
+  text-shadow: 1px 1px 5px rgb(87, 47, 232);
+  font-size: 20px;
+  text-transform: capitalize;
+  list-style: none;
+  text-align: left;
+}
+.container-img {
+  box-shadow: 10px 5px 5px rgb(165, 165, 165);
+  width: 100%;
+}
+.formulario {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.formulario label {
+  font-size: 20px;
+}
+
+.contenedor-formulario {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
